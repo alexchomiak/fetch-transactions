@@ -18,7 +18,7 @@ Once you have the service running using Docker,  you should be able to make API 
 Here are the routes exposed by the application:
 | Route             | Description                                                                                                                                                                                                   |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| GET /points?user  | return points balance for user, user query param optional (defaults to "fetch")                                                                                                                               |
+| GET /balance?user  | return points balance for user, user query param optional (defaults to "fetch")                                                                                                                               |
 | POST /transaction | save transaction for user, user param in body is optional (defaults to "fetch")                                                                                                                               |
 | POST /spend       | spend specified points for user, user param in body is optional (defaults to "fetch")                                                                                                                         |
 | POST /add         | add transaction with current ISO timestamp with specified points and payee for user, user param in body is optional (defaults to "fetch"). NOTE: this was not in the specification but was useful for testing |

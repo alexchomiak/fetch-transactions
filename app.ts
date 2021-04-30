@@ -31,7 +31,7 @@ export async function main(app_port?: number, manager_type?: string) {
 
     // * Bind routes
     /*
-        * HTTP GET /points?user
+        * HTTP GET /balance?user
         ! return balance for User
         ? (user parameter is optional as query parameter, defaults to fetch)
     */

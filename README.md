@@ -30,7 +30,7 @@ docker-compose down
 ```
 And for the Redis environment:
 ```
-docker-compose --file docker-compose-redis.yml down -v
+docker-compose --file docker-compose-redis.yml down -v # -v will remove the volume (omit this if you want data to persist)
 ```
 
 ## Development

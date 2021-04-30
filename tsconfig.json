@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "esModuleInterop": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "outDir": "build",
+    
+    },
+    "exclude": [
+        "test",
+        "node_modules"
+    ]
+}

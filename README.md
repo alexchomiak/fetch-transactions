@@ -9,7 +9,7 @@ To run the Transaction Manager using an in memory data store, run the following 
 ```
 docker-compose up -d
 ```
-T To get the environment up and running you will need Docker & Docker-Compose installed. Once you have the necessary dependencies installed you can run the following command to start the service:
+To get the environment up and running you will need Docker & Docker-Compose installed. Once you have the necessary dependencies installed you can run the following command to start the service:
 ```
 docker-compose --file docker-compose-redis.yml up -d
 ```

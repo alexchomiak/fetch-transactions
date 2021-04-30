@@ -18,6 +18,7 @@ services:
             - 8080:8080
         networks: 
             - fetch-net
+        depends_on: redis
 networks: 
     fetch-net:
 volumes: 
